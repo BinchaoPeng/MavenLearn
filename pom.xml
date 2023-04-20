@@ -8,10 +8,23 @@
     <artifactId>MavenLearn</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <plugins>
+            <plugin>
+
+                <artifactId/>
+            </plugin>
+        </plugins>
+    </build>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+    <!--使用<dependency>声明一个依赖后，Maven就会自动下载这个依赖包并把它放到classpath中。-->
+
+    </dependencies>
 
 </project>
